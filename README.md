@@ -1,0 +1,3 @@
+# Unhandled JSON Access in Dart Async Function
+
+This repository demonstrates a common yet subtle error in Dart when asynchronously fetching and parsing JSON data. The `fetchData` function fetches data from an API and attempts to access a nested property. However, it lacks error handling for cases where the JSON response is empty or the expected property is missing. This can lead to runtime exceptions, which this example illustrates and solves.
